@@ -1,0 +1,57 @@
+.container {
+  width: 500px;
+  margin: 50px auto;
+  border: 2px solid white;
+}
+
+.output {
+  width: 500px;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  padding: 5px;
+  margin-bottom: 5px;
+  border:2px solid black;
+  box-sizing: border-box;
+  display:none;
+  background-color: black;
+  color: white;
+}
+
+.output.active {
+  display:block;
+} 
+
+.input {
+  width:500px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.num_bth {
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5%;
+  background: lightgray;
+  cursor: pointer;
+  margin: 2px;
+  border:2px solid black;
+}
+
+#clear, #equal_btn {
+    width: 240px;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5%;
+    background:lightgray;
+    cursor: pointer;
+    margin:2px;
+    border:2px solid black;
+}
